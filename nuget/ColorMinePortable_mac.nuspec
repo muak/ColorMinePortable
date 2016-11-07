@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>ColorMinePortable</id>
+        <version>1.0.0</version>
+        <title>ColorMinePortable</title>
+        <authors>kamu</authors>
+        <owners>kamu</owners>
+        <projectUrl>https://github.com/muak/ColorMinePortable</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Color conversion portable class library</description>
+        <summary>
+            ## Supported Color Models:
+            * CMY
+            * CMYK
+            * HSL
+            * HSB
+            * HSV
+            * CIE L*AB
+            * Hunter LAB
+            * LCH
+            * LUV
+            * sRGB
+            * XYZ
+            * YXY
+            * Munsell
+            * Hex
+        </summary>
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <!-- PCL -->
+        <file src="../ColorMinePortable/bin/Release/ColorMinePortable.dll" target="lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10" />
+    </files>
+</package>

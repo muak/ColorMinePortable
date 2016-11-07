@@ -1,0 +1,52 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMinePortable", "ColorMinePortable\ColorMinePortable.csproj", "{98530981-3846-4604-BFD5-983DB025E222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMinePortable.Tests", "ColorMinePortable.Tests\ColorMinePortable.Tests.csproj", "{182FDC72-C6BC-49DF-A897-DB90AF777F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98530981-3846-4604-BFD5-983DB025E222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98530981-3846-4604-BFD5-983DB025E222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98530981-3846-4604-BFD5-983DB025E222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98530981-3846-4604-BFD5-983DB025E222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182FDC72-C6BC-49DF-A897-DB90AF777F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182FDC72-C6BC-49DF-A897-DB90AF777F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182FDC72-C6BC-49DF-A897-DB90AF777F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182FDC72-C6BC-49DF-A897-DB90AF777F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.TabsToSpaces = False
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchSection = True
+		$2.NewLinesForBracesInProperties = True
+		$2.NewLinesForBracesInAccessors = True
+		$2.NewLinesForBracesInAnonymousMethods = True
+		$2.NewLinesForBracesInControlBlocks = True
+		$2.NewLinesForBracesInAnonymousTypes = True
+		$2.NewLinesForBracesInObjectCollectionArrayInitializers = True
+		$2.NewLinesForBracesInLambdaExpressionBody = True
+		$2.NewLineForElse = True
+		$2.NewLineForCatch = True
+		$2.NewLineForFinally = True
+		$2.NewLineForMembersInObjectInit = True
+		$2.NewLineForMembersInAnonymousTypes = True
+		$2.NewLineForClausesInQuery = True
+		$2.SpacingAfterMethodDeclarationName = False
+		$2.SpaceAfterMethodCallName = False
+		$2.SpaceBeforeOpenSquareBracket = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal

@@ -2,15 +2,16 @@
 
 This is the ColorMine(https://github.com/THEjoezack/ColorMine)  made to correspond  portable class library.
 
-This program uses the following munsell data. http://www.rit.edu/cos/colorscience/rc_munsell_renotation.php real.dat
+This program uses the following munsell data.
+
+http://www.rit.edu/cos/colorscience/rc_munsell_renotation.php real.dat
 
 ## Difference form original
 
 * Add ColorSpace
     * Munsell(approximate)
     * Hex
-* Xamarin.Forms.Color Conversion Extension
-    * (Delete "XamarinForms.Extension.cs" when you don't use Xamarin.Forms)
+* Xamarin.Forms.Color Conversion Extension(Forms branch only)
 * not supported CMYK profiles
 * changed HSL value range 0 to 1
 * changed HSV and HSB algorithm

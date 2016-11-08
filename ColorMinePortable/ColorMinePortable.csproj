@@ -56,10 +56,10 @@
     <Compile Include="ColorSpaces\Conversions\Utility\MunsellTable.cs" />
     <Compile Include="ColorSpaces\Conversions\MunsellConverter.cs" />
     <Compile Include="ColorSpaces\ColorSpacesMunsell.cs" />
+    <Compile Include="ColorSpaces\XamarinFormsExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ColorSpaces\ColorSpaces.xml" />
-    <None Include="ColorSpaces\XamarinFormsExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Munsell.csv" />

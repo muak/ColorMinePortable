@@ -2,11 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>ColorMinePortable</id>
-        <version>1.0.0</version>
+        <version>1.0.0-pre2</version>
         <title>ColorMinePortable</title>
         <authors>kamu</authors>
         <owners>kamu</owners>
         <projectUrl>https://github.com/muak/ColorMinePortable</projectUrl>
+        <licenseUrl>https://github.com/muak/ColorMinePortable/blob/master/LICENSE.txt</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Color conversion portable class library</description>
         <summary>

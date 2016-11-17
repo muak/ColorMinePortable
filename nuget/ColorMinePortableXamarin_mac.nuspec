@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>ColorMinePortable.Forms</id>
-        <version>1.0.0-pre2</version>
+        <version>1.0.0-pre3</version>
         <title>ColorMinePortable.Forms</title>
         <authors>kamu</authors>
         <owners>kamu</owners>

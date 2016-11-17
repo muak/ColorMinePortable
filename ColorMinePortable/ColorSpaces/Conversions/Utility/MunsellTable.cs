@@ -60,48 +60,6 @@ namespace ColorMine.ColorSpaces.Conversions.Utility
 			}
 		}
 
-		//public void SaveB() {
-		//	var serializer = new DataContractSerializer(typeof(MunsellTable));
-		//	using (var stream = new MemoryStream())
-		//	using (var binaryDictionaryWriter = XmlDictionaryWriter.CreateBinaryWriter(stream)) {
-		//		serializer.WriteObject(binaryDictionaryWriter, this);
-		//		binaryDictionaryWriter.Flush();
-		//		File.WriteAllBytes("munsell.dat", stream.ToArray());
-		//	};
-		//}
-
-		/// <summary>
-		/// 埋込リソース取得
-		/// http://cms.shise.net/2014/10/csharp-load-resource/
-		/// </summary>
-		/// <returns></returns>
-		//private Stream GetResouce() {
-		//	var name = "munsell.dat";
-		//	Stream stream;
-		//	var asm = Assembly.GetExecutingAssembly();
-
-		//	// 何もせずにアセンブリから取れたなら返す。
-		//	stream = asm.GetManifestResourceStream(name);
-		//	if (stream != null) {
-		//		return stream;
-		//	}
-
-		//	// パスとかいじってアセンブリから取ろうとする。
-		//	string fullname = asm.FullName;
-		//	string[] asmname = fullname.Split(",".ToCharArray());
-
-		//	if (asmname.Length >= 2) {
-		//		name = name.Replace("/", ".").Replace("\\", ".");
-		//		name = asmname[0] + "." + name;
-		//		stream = asm.GetManifestResourceStream(name);
-
-		//		return stream;
-		//	}
-
-		//	// どれもダメだったら null
-		//	return null;
-		//}
-
 		public IEnumerator<MunsellDat> GetEnumerator() {
 			foreach (var m in items) {
 				yield return m;

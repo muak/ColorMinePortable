@@ -48,7 +48,6 @@
     <Compile Include="ColorSpaces\ColorSpaceTest.cs" />
     <Compile Include="ColorSpaces\ConversionTests.cs" />
     <Compile Include="ColorSpaces\ConversionPlusTests.cs" />
-    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

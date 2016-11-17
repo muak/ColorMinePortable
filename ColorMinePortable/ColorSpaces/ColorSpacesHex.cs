@@ -12,6 +12,7 @@ namespace ColorMine.ColorSpaces
 
 		string Code { get; set; }
 
+		string ToString();
 	}
 
 	public class Hex : ColorSpace, IHex
@@ -85,6 +86,11 @@ namespace ColorMine.ColorSpaces
 
 		public override IRgb ToRgb() {
 			return HexConverter.ToColor(this);
+		}
+
+		public override string ToString()
+		{
+			return Code;
 		}
 	}
 }

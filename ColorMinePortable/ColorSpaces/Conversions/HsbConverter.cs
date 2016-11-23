@@ -17,12 +17,11 @@
 
         internal static IRgb ToColor(IHsb item)
         {
-            var hsv = new Hsv
-                {
-                    H = item.H,
-                    S = item.S,
-                    V = item.B
-                };
+            var hsv = new Hsv {
+                H = item.H,
+                S = item.S,
+                V = item.B
+            };
             return HsvConverter.ToColor(hsv);
         }
     }

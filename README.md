@@ -1,18 +1,22 @@
 # ColorMinePortable
 
-This is the ColorMine(https://github.com/THEjoezack/ColorMine)  made to correspond  portable class library.
+This is the library that it made ColorMine(https://github.com/THEjoezack/ColorMine)  correspond to portable class library.
 
 This program uses the following munsell data.
 
 http://www.rit.edu/cos/colorscience/rc_munsell_renotation.php real.dat
 
+## Nuget Installation
+
+```bash
+Install-Package ColorMinePortable
+```
 
 ## Difference form original
 
 * Add ColorSpace
     * Munsell(approximate)
     * Hex
-* Xamarin.Forms.Color Conversion Extension(Forms branch only)
 * not supported CMYK profiles
 * changed HSL value range 0 to 1
 * changed HSV and HSB algorithm
@@ -43,13 +47,6 @@ var code = hex.Code;	// return "#FFFFFF"
 var rethex = rgb.To<Hex>();	// "#FFFFFF"
 ```
 
-## Xamarin Conversion
-
-```csharp
-var xcolor = Xamarin.Forms.Color.Red;
-var rgb = xcolor.To<Rgb>(); //xamarin to rgb
-var xcolor2 = rgb.ToXamarinForms(); // rgb to xamarin
-```
 
 # ColorMine
 
